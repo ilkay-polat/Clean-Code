@@ -1,4 +1,4 @@
-package principles.lcp.before;
+package principles.lcp.logger.before;
 
 public class Logger {
     public void log(final Data data) {

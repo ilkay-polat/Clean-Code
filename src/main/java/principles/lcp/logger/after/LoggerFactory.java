@@ -1,4 +1,4 @@
-package principles.lcp.after;
+package principles.lcp.logger.after;
 
 public class LoggerFactory {
     public static Logger getLogger(final LoggerType loggerType) {

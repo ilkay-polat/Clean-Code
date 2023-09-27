@@ -1,6 +1,4 @@
-package principles.lcp.after;
-
-import static principles.lcp.after.LoggerType.FILE;
+package principles.lcp.logger.before;
 
 public class Main {
     private final Data data;
@@ -15,7 +13,7 @@ public class Main {
     }
 
     public void process() {
-        Logger logger = LoggerFactory.getLogger(FILE);
+        Logger logger = new Logger();
         logger.log(data);
     }
 }

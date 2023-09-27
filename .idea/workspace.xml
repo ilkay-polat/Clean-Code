@@ -5,17 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0fda477-7df3-4df3-b791-e59422e53def" name="Changes" comment="Single Responsibility Principle (SRP) Account Example Added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/principles/rp/report/after/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/principles/rp/report/after/PersonnelReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/principles/rp/report/after/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/principles/rp/report/after/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/principles/rp/report/after/SalesReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/principles/rp/report/before/PersonnelReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/principles/rp/report/before/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/principles/rp/report/before/SalesReport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/principles/lcp/after/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/principles/lcp/after/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/principles/lcp/after/DatabaseLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/principles/lcp/after/DatabaseLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/principles/lcp/after/FileLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/principles/lcp/after/FileLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/principles/lcp/after/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/principles/lcp/after/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/principles/lcp/after/LoggerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/principles/lcp/after/LoggerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/principles/lcp/after/LoggerType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/principles/lcp/after/LoggerType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/principles/lcp/after/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/principles/lcp/after/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/principles/lcp/before/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/principles/lcp/before/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/principles/lcp/before/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/principles/lcp/before/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/principles/lcp/before/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/principles/lcp/before/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/principles/lcp/after/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/principles/lcp/logger/after/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/principles/lcp/after/DatabaseLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/principles/lcp/logger/after/DatabaseLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/principles/lcp/after/FileLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/principles/lcp/logger/after/FileLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/principles/lcp/after/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/principles/lcp/logger/after/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/principles/lcp/after/LoggerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/principles/lcp/logger/after/LoggerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/principles/lcp/after/LoggerType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/principles/lcp/logger/after/LoggerType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/principles/lcp/after/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/principles/lcp/logger/after/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/principles/lcp/before/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/principles/lcp/logger/before/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/principles/lcp/before/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/principles/lcp/logger/before/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/principles/lcp/before/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/principles/lcp/logger/before/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +34,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -46,15 +54,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/ilkaypolat/Desktop/CleanCode/src/main/java/principles/rp/report/after",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/principles/rp/report/after" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="principles.lcp.after" />
       <recent name="principles.srp.account.after" />
@@ -95,7 +107,7 @@
       <updated>1694118647473</updated>
       <workItem from="1694118650067" duration="4209000" />
       <workItem from="1695588223691" duration="1993000" />
-      <workItem from="1695801330409" duration="1660000" />
+      <workItem from="1695801330409" duration="6048000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,4 @@
-package principles.lcp.before;
+package principles.lcp.logger.after;
 
 public class Main {
     private final Data data;
@@ -13,7 +13,7 @@ public class Main {
     }
 
     public void process() {
-        Logger logger = new Logger();
+        Logger logger = LoggerFactory.getLogger(LoggerType.FILE);
         logger.log(data);
     }
 }
