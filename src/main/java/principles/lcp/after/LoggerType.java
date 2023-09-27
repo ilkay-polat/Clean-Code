@@ -1,6 +1,7 @@
 package principles.lcp.after;
 
-public enum LogType {
+public enum LoggerType {
     FILE,
-    DATABASE
+    DATABASE,
+    OTHER
 }

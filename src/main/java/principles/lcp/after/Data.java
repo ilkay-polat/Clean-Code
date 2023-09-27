@@ -1,4 +1,4 @@
-package principles.lcp.before;
+package principles.lcp.after;
 
 public class Data {
     private String value;
