@@ -10,3 +10,6 @@ The Reusability Principle, aims to maximize the use of existing software compone
 
 **Single Responsibility Principle (SRP)**:
 The Single Responsibility Principle, one of the SOLID principles of object-oriented design, advocates a simple but powerful concept: a class, method, or module should have one and only one reason to change. In other words, it should have a single responsibility. This principle promotes code organization that is clean, concise, and focused.
+
+**Open Closed Principle (OCP)**:
+The Open Closed Principle emphasizes the importance of designing software modules that are open for extension but closed for modification. In simpler terms, it encourages developers to build systems in a way that allows new functionalities to be added without altering existing code.
