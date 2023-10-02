@@ -13,3 +13,6 @@ The Single Responsibility Principle, one of the SOLID principles of object-orien
 
 **Open Closed Principle (OCP)**:
 The Open Closed Principle emphasizes the importance of designing software modules that are open for extension but closed for modification. In simpler terms, it encourages developers to build systems in a way that allows new functionalities to be added without altering existing code.
+
+**Liskov Substitution Principle (LSP)**:
+The Liskov Substitution Principle states that objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program. In simpler terms, if a program is using a base class, it should be able to use any of its derived classes without knowing it, and the program should still work correctly. This principle builds on the concept of polymorphism, allowing objects of different classes to be treated as objects of a common superclass.
