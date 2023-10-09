@@ -19,3 +19,6 @@ The Liskov Substitution Principle states that objects of a superclass should be 
 
 **Interface Segregation Principle (ISP)**:
 The Interface Segregation Principle (ISP) states that a class should not be forced to implement interfaces it doesn't use. In other words, a client should not be forced to depend on interfaces it doesn't use. This principle emphasises that it is better to have several small, specific interfaces, tailored for the needs of the client, rather than a large, general interface that contains methods for all possible use cases.
+
+**Dependency Inversion Principle(DIP)**:
+The Dependency Inversion Principle(DIP) states that high-level modules should not depend on low-level modules. Both high-level and low-level modules should depend on abstractions (e.g., interfaces or abstract classes).
